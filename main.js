@@ -210,7 +210,7 @@
               secondCard.classList.remove("flipped");
               openCards = [];
               lockBoard = false; // Разблокируем доску
-            }, 3000);
+            }, 2000);
           } else {
             gamebutton.append(buttonRestart);
             showCelebration();
