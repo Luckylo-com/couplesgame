@@ -47,6 +47,7 @@
   
     // Добавляем текст "Поздравляем!"
     const message = document.createElement("h1");
+    message.classList.add("text-2xl")
     message.textContent = "🎉 Поздравляем! Вы нашли пару! 🎉";
     message.style.color = "white";
     message.style.fontSize = "4rem";
